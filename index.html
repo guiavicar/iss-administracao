@@ -15,6 +15,28 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "ISS Administração",
+  "description": "Administração de condomínios e de pequenas e grandes empresas.",
+  "image": "assets/logo.jpg",
+  "telephone": "+55 61 99435-7462",
+  "email": "iss.admbsb@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Q. 101, Ed. Fernando de Noronha, Loja 3, 2º Escritório",
+    "addressLocality": "Brasília",
+    "addressRegion": "DF",
+    "postalCode": "71906-500",
+    "addressCountry": "BR"
+  },
+  "areaServed": "Brasília - DF",
+  "openingHours": "Mo-Fr 08:00-18:00",
+  "sameAs": ["https://www.instagram.com/iss.administracao"]
+}
+</script>
 </head>
 <body>
 
@@ -518,11 +540,20 @@
           </div>
         </a>
 
-        <div class="contact-card">
+        <a class="contact-card" href="https://www.google.com/maps/search/?api=1&amp;query=Ed.+Fernando+de+Noronha%2C+Quadra+101%2C+%C3%81guas+Claras%2C+Bras%C3%ADlia+-+DF%2C+71906-500" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24"><path d="M12 21s7-6.1 7-11a7 7 0 10-14 0c0 4.9 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>
           <div>
+            <h4>Escritório</h4>
+            <p>Q. 101, Ed. Fernando de Noronha, Loja 3, 2º Escritório<br>Águas Claras, Brasília – DF · CEP 71906-500</p>
+            <span class="contact-link">Como chegar</span>
+          </div>
+        </a>
+
+        <div class="contact-card">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          <div>
             <h4>Atendimento</h4>
-            <p>Brasília e região · Segunda a sexta, das 8h às 18h</p>
+            <p>Segunda a sexta, das 8h às 18h</p>
           </div>
         </div>
       </div>
@@ -569,6 +600,12 @@
       <p class="form-note">Ao enviar, sua mensagem abre no WhatsApp da ISS Administração.</p>
     </form>
   </div>
+
+  <div class="wrap">
+    <div class="map reveal">
+      <iframe src="https://www.google.com/maps?q=Ed.+Fernando+de+Noronha%2C+Quadra+101%2C+%C3%81guas+Claras%2C+Bras%C3%ADlia+-+DF%2C+71906-500&amp;output=embed" title="Mapa do escritório da ISS Administração em Águas Claras" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+    </div>
+  </div>
 </section>
 
 <!-- ================= FOOTER ================= -->
@@ -581,9 +618,13 @@
           <span class="brand-name">ISS<span class="brand-sub">Administração</span></span>
         </div>
         <p>
-          Soluções completas em administração para condomínios, empresas e pequenos
-          negócios, com foco em organização, eficiência e qualidade nos serviços.
+          Soluções completas em administração para condomínios e para pequenas e grandes
+          empresas, com foco em organização, eficiência e qualidade nos serviços.
         </p>
+        <address class="footer-address">
+          Q. 101, Ed. Fernando de Noronha, Loja 3, 2º Escritório<br>
+          Águas Claras, Brasília – DF · CEP 71906-500
+        </address>
       </div>
 
       <div>
