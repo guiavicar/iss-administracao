@@ -8,3 +8,4 @@ Site estático (HTML/CSS/JS), publicado via GitHub Pages.
 - `styles.css` — identidade visual (navy + dourado, extraída da logo)
 - `script.js` — menu, animações e formulário que envia para o WhatsApp
 - `assets/logo.jpg` — logo da marca
+- `assets/img/` — fotos (equipe, CEO, carro e condomínios atendidos)
